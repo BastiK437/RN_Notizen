@@ -2,7 +2,7 @@
 
 ## Signalklassen
  
-![Signalklassen](img/Signalklassen.png)
+![Signalklassen](./img/Signalklassen.png)
 
 ## Übertragung
 
@@ -42,5 +42,5 @@
 ![](./img/Monomode.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTY1Mzc2NF19
+eyJoaXN0b3J5IjpbLTE0ODA2ODc3MDksMTc4NTY1Mzc2NF19
 -->
