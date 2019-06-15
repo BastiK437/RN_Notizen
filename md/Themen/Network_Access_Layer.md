@@ -60,3 +60,7 @@
 
 - Stationen sind in einem Ring verbunden
 - Zuteilung des Senderechts durch zirkulierenden Token
+
+## ATM
+
+S. 73

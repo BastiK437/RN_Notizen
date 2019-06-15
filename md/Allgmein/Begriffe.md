@@ -13,6 +13,9 @@
 - NIC       - Network Interface Card
 - CSMA/CD   - Carrier Sense - Multiple Access / Collision Detect
 - LLC       - Logical Link Control
+- ATM       - Asynchronous Transfer Mode
+- VCI       - Virtual Channel Identifier
+- VPI       - virtual Path Identifier
 
 
 # Erklärungen
