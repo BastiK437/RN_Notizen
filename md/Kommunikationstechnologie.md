@@ -3,7 +3,7 @@
 ## Signalklassen
  
 ![Signalklassen](./img/Signalklassen.png)
-
+![](/home/basti/Studium_MEGA/Semester_4/RN/Vorlesung/Notizen/img/Monomode.png)
 ## Übertragung
 
 - Abtastung: Diskretisierung in der Zeit
@@ -42,6 +42,6 @@
 ![](./img/Monomode.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA2ODc3MDksLTE0ODA2ODc3MDksMT
-c4NTY1Mzc2NF19
+eyJoaXN0b3J5IjpbMTQwMTI4OTU5OSwtMTQ4MDY4NzcwOSwxNz
+g1NjUzNzY0XX0=
 -->
