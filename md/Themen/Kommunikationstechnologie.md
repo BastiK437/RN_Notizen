@@ -2,7 +2,7 @@
 
 ## Signalklassen
  
-![Signalklassen](./img/Signalklassen.png)
+![Signalklassen](../../img/Signalklassen.png)
 
 ## Übertragung
 
@@ -37,9 +37,9 @@
 
 ## Glasfaser
 
-![](./img/Multimode_Stufenindex.png)
-![](./img/Multimode_Gradientenindex.png)
-![](./img/Monomode.png)
+![](../../img/Multimode_Stufenindex.png)
+![](../../img/Multimode_Gradientenindex.png)
+![](../../img/Monomode.png)
 
 - Multimode für kurze, Monomode für lange Strecken
 
