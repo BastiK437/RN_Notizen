@@ -3,7 +3,7 @@
 ## Signalklassen
  
 ![Signalklassen](./img/Signalklassen.png)
-
+![](https://github.com/BastianKrammer/RN_Notizen/blob/master/img/Monomode.png)
 ## Übertragung
 
 - Abtastung: Diskretisierung in der Zeit
@@ -42,5 +42,6 @@
 ![](./img/Monomode.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA2ODc3MDksMTc4NTY1Mzc2NF19
+eyJoaXN0b3J5IjpbLTEzMDQ0NDk3OCwtMTQ4MDY4NzcwOSwxNz
+g1NjUzNzY0XX0=
 -->
