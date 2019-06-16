@@ -63,4 +63,73 @@
 
 ## ATM
 
-S. 73
+## PPP
+
+- war der Standard-Link für Internet Dial-up
+- Schicht-2 Rahmenformat mit Flusskontrolle
+- eigenes Protokoll für Verbindungsaufbau, -abbau und -kontrolle (LCP)
+- Mechanismus zum konfigurationsaustausch, z.B. IP-Adresse (NCP)
+- eigene Fehlerkontrolle
+
+## Switching/Bridging (Layer 2)
+
+- Vermittlung auf dem layer 2: Pakete werden an Interfaces gemäß Hardware-Adresstabellen (MAC-Tables) weitergeleitet
+- Merkt sich gelernte Adressen in Forwarding Database
+- Ursprünglich: Bridges zur Segmentierung von Busnetzen
+- Heute: Switches zur flexiblen Strukturierung & Protokollwechsel
+
+### Switching Logik
+
+- Switch hält FDB per Port (alle MAC Adressen hinter diesem Port)
+- Broadcast für unbekannte Adressen
+
+### Switch Architekturen
+
+- Store-and-Forward
+        - Langsamer, speicher und weiterleiten kostet Zeit
+        - Erkennt Fehlerhafte Datenpakete
+- Cut-Through
+        - teuer, weil Verbindungen zwischen allen Teilnehmern vorhanden sein müssen. Dafür schneller.
+        - der Schaltprozess wird bereits eingeleitet, bevor das vollständige Datenpaket eingetroffen ist (nur destination reicht)
+        - keine Fehlerkorrektur! (da direkt weitergeleitet wird)
+
+### Virtuelle LANs
+
+- Gruppierung von Netzwerkteilnehmern innerhalb eines LANs
+- Müssen seperat auf jedem Switch konfiguriert und Ports zugewiesen werden
+- Automatische Verteilung der VLAN Informationen durch GARP
+
+#### Port Based VLAN (802.1Q)
+
+- Ein unicast oder broadcast Paket wird auf einem Port der ID = x empfangen und nur an Ports derselben ID geforwarded
+        - Jede Hostgruppe erhält eine ID
+        - Pakete werden nur innerhalb eines VLANs geforwarded
+        - Jeder Switchport gehört zu mind. einer ID
+
+
+#### MAC Address Based VLAN
+
+- Die VLAN Mitgliedschaft eines Pakets wird an der Quell- oder Zieladresse identifiziert
+- Switches halten eine Membership-Tabelle
+- 
+#### Protocol (L3) Based VLAN
+
+- Die Mitgliedschaft eines Pakets in einem VLAN wird an dem Layer 3 Protokoll (IP, IPC, Netbios..) und der L3 Netzzugehörigkeit festgestellt
+
+#### VLAN Prioritätstag (802.1p/Q)
+
+- Wenn Tagging in Anwendung, dann wird das Prioritätsbit extrahiert und mit dem Schwellwert 3 vergliechen. (0-3 niedrieg, 4-7 hoch)
+
+### Priorisierung (802.1p)
+
+- Prioritätsklassen werden auf switching queues abgebildet
+- Port-basierte Priorität
+
+
+
+## Hub (Layer 1 (physikalisch))
+
+- Leitet jedes Datenpaket an `alle` anderen Ports weiter! 
+- Keine Kontrolle der Pakete, somit auch keine Fehlerüberprüfung
+- Keine Verzögerung
+
