@@ -24,6 +24,20 @@
 - VLAN      - Virtuelle LANs
 - GARP      - Generic Attribute Registration Protocol
 - Modem     - `Mo`dulator und `Dem`odulator
+- LIR       - Local Internet Registry
+- NAT       - Network Adress Translation
+- PAT       - Port Adress Tranlation
+- NAPT      - Network Adress Port Translation
+- MTU       - Maximum Transfer Unit                                     - Maximalgröße von IP-Datagrammen
+- ICMP      - Internet Control Message Protocol
+- ARP       - Address Resolution Protocol
+- DHCP      - Dynamic Host Configuration Protocol
+- CIDR      - Classless Inter-Domain Routing
+- ALG       - Application Layer Gateway
+- NDP       - Neighbor Discovery Protokoll
+- RIB       - Routing Information Base
+- FIB       - Forwarding Information Base
+- VLSM      - Variable Length Subnet Masks
 
 # Erklärungen
 

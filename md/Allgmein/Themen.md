@@ -8,3 +8,6 @@
 6. IETF
 7. DNS
 8. Kommunikationstechnologie
+9. IPv4
+10. IPv6
+11. Routing
