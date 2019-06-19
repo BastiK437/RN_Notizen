@@ -38,6 +38,13 @@
 - RIB       - Routing Information Base
 - FIB       - Forwarding Information Base
 - VLSM      - Variable Length Subnet Masks
+- RIP       - Routing Information Protocol
+- OSPF      - Open Shortest Path First
+- IS-IS     - Intermediate System to Intermediate System
+- AS        - Autonome Systeme
+- ASN       - Autonome Systeme Number
+- EGB       - 
+- BGP       - Border Gateway Protocol
 
 # Erklärungen
 

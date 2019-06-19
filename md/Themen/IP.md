@@ -118,3 +118,6 @@
 
 - 1080:645:FF::/48
 
+### NDP
+
+- Multicast mit den ersten ca. 24 bit der Ziel IP als Group identifier

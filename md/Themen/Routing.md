@@ -31,7 +31,50 @@
 
 ## Routing Algorithmen
 
-- Fluten 
-- Hot / Cold Potato
-- Distanz-Vektor-Algorithmen
-- Link-State-Algorithmen
+### Fluten 
+
+### Hot / Cold Potato
+
+### Distanz-Vektor-Algorithmen
+
+- Jeder Router verfügt über eine Liste kürzester Distanzen zu allen Netzen der Routing-Domain (Distanzvektor)
+- Distanzen werden in einheitlicher, vorgegebener Metrik gemessen (z.B. hops)
+- Router broadcasten ihre Routingtabellen
+- Neu erlernte kürzeste Wege ersetzen bisherige Einträge
+- siehe RIP
+
+### Link-State-Algorithmen
+
+- Jeder Router testet den Status seiner Links zu den Nachbarroutern
+- Link-Informationen werden an alle Router des Netzwerks weitergegeben (Fluten)
+- Jeder Router baut hiraus eine Netztopologie auf
+- Alle Router des Netzwerks berechnen in gleicher Weise die günstigsten Wege und bilden Routing-Tabellen (Dijkstra, OSPF)
+
+### Routing Problem
+
+- Zerfällt Grundsätzlich in zwei Teile
+        - Routing innerhalb von Netzwerken
+        - Routing zwischen Netzwerken
+- Deshalb gliedert sich das internet in AS, deren innere Struktur nach außen transparent ist
+- Innerhalb von ASes wird ein frei wählbares Routing Protokoll gesprochen
+- ASes besitzen global eine eindeutige AS-Nummer (Google: AS15169)
+
+## Exterior / Interior Gateway Protokolle
+
+- Exterior
+        - EGP
+        - BGP
+- Interior 
+        - RIP
+        - RIP-V2
+        - OSPF
+        - IS-IS
+
+## Hierarchien der Internet Topologie
+
+- Tier 1: Global Internet Core
+- Tier 2: National/Regional ISPs
+- Tier 3: Stub Networks, Local Eyeballs
+- (Tier 4): Customer IP Networks (without ASN)
+
+- kosten von unten (4) nach oben (1)
