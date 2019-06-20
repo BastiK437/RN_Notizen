@@ -45,6 +45,11 @@
 - ASN       - Autonome Systeme Number
 - EGB       - 
 - BGP       - Border Gateway Protocol
+- RTT       - Round Trip Time
+- rwnd      - receive window
+- cwnd      - congestion window
+- SCTP      - Streaming Control Transmission Protocol
+- QUIC      - Quickc UDP Internet Connections
 
 # Erklärungen
 

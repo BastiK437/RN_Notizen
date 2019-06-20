@@ -2,6 +2,7 @@
 
 ## Welche einzelnen Schritte muss ein Router bei dem Forwarding von IP Paketen vornehmen?
 
+- 
 
 ## Es gibt mindestens 3 essentielle Vorteile von CIDR - welche?
 

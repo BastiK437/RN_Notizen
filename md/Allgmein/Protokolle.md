@@ -78,3 +78,8 @@ Protokolle können Daten mit unterschiedlicher Zielsetzung übertragen.
       - Ausgewählte Routen wandern in dei FIB
 - Phase III: Routen Weiterleitung
       - FIB-Einträge werden vor der Weiterleitung erneut gem. Policies gefiltert
+
+## Transportprotokolle
+
+- UDP
+- TCP
