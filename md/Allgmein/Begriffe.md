@@ -62,6 +62,9 @@
 - CCA       - Clear Channel Assessment
 - IFS       - Inter-Frame Space
 - CSMA/CA   - Carrier Sense - Multiple Access / Collision Avoidance
+- LBT       - Listen Before Talk
+- AP        - Acces Point
+- WIMAX     - Wireless MAN
 
 # Erklärungen
 
