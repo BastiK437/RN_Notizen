@@ -50,6 +50,18 @@
 - cwnd      - congestion window
 - SCTP      - Streaming Control Transmission Protocol
 - QUIC      - Quickc UDP Internet Connections
+- SDMA      - Space Division Multiple Access
+- FDMA      - Frequency Division Multiple Access
+- TDMA      - Time Division Multiple Access
+- CDMA      - Code Division Multiple Access
+- MA/CA     - Multiple Access with Collision Avoidance
+- RTS       - request to send
+- CTS       - clear to send
+- DFWMAC    - Distributed Foundation Wireless MAC
+- NAV       - Network Allocation Vector
+- CCA       - Clear Channel Assessment
+- IFS       - Inter-Frame Space
+- CSMA/CA   - Carrier Sense - Multiple Access / Collision Avoidance
 
 # Erklärungen
 

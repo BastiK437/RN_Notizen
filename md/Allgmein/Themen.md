@@ -15,3 +15,7 @@
 13. TCP
 14. QUICK
 15. SCTP
+16. WLAN
+17. LTE
+18. Bluetooth
+19. WIMAX
