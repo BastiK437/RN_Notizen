@@ -65,6 +65,16 @@
 - LBT       - Listen Before Talk
 - AP        - Acces Point
 - WIMAX     - Wireless MAN
+- SNMP      - Simple Network Management Protocol
+- NMM       - Network Monitoring and Management
+- SMI       - Structure and Identification of Managed Information
+- MIB       - Management Information Base
+- PGP       - Pretty Good Privacy
+- WEP       - Wired Equivalent Privacy
+- WPA       - Wi-Fi Protected Access
+- STA       - Station
+- TKIP      - Temporal Key Integrity Protocol
+- DMZ       - Demilitarisierte Zone
 
 # Erklärungen
 

@@ -19,3 +19,5 @@
 17. LTE
 18. Bluetooth
 19. WIMAX
+20. Netzwerk Management (ODI, SMI, MIB, SNMP)
+21. Netzwerksicherheit
